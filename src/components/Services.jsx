@@ -28,17 +28,18 @@ function Services() {
   return (
     <section className="py-20 bg-[#C77DFF]">
       <h2 className="text-3xl font-semibold text-center mb-12">Popular Services</h2>
+      <a href="#"><h1 className="text-right pr-56 underline font-medium">View More</h1></a>
       <div className="flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-4 md:mx-8 lg:mx-52 pt-10">
           {services.map((service, index) => (
             <div
               key={index}
               className={`p-4 w-full text-white ${service.bgColor} rounded-lg shadow-md flex flex-col items-center`}>
-              <img src={service.image} alt={service.title} className="w-32 h-32 mb-10" />
-              <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-              <p className="text-center">{service.description}</p>
+              <img src={service.image} alt={service.title} className="w-32 h-32 mb-10 mt-10" />
+              <h3 className="text-xl font-semibold mb-4 text-black">{service.title}</h3>
+              <p className="text-center text-black">{service.description}</p>
               <a href="#">
-                <button className="mt-4 px-6 py-2 text-black">View More</button>
+                <button className="mt-4 px-6 py-2 text-white">View More</button>
               </a>
             </div>
           ))}
