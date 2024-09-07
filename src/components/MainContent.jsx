@@ -12,7 +12,7 @@ function MainContent() {
             Start your story, here
           </p>
           
-          <h2 className="text-2xl md:text-4xl font-semibold text-black leading-tight">
+          <h2 className="text-2xl md:text-4xl font-bold text-black leading-tight">
             A Beginner Freelancer, Start <br />
             Your Story here with us,
           </h2>
@@ -21,7 +21,7 @@ function MainContent() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-12">
           
           <div className="flex justify-center">
-            <div className="w-full md:w-96 h-auto rounded-xl mt-20 bg-gray-300">
+            <div className="w-full md:w-96 h-auto rounded-xl mt-16 bg-gray-300">
               <img src={Image_1} alt="Freelancer" className="w-full h-full rounded-xl object-cover" />
             </div>
           </div>
@@ -30,7 +30,7 @@ function MainContent() {
             <div className="w-full md:w-60 h-auto rounded-xl bg-gray-300">
               <img src={Image_2} alt="Learning" className="w-full h-full rounded-xl object-cover" />
             </div>
-            <p className="text-base md:text-lg text-gray-200 pt-4 md:pt-20">
+            <p className="text-base md:text-lg text-[#FCFCFF] pt-4 md:pt-20">
               We make sure everyone gets equal learning and opportunities to unveil their skills and project here at our platform.
             </p>
           </div>
@@ -39,15 +39,15 @@ function MainContent() {
         <div className="flex flex-col md:flex-row justify-around mt-16 md:mt-32">
           <div className="text-center mb-6 md:mb-0">
             <h3 className="text-xl md:text-2xl font-bold text-[#2D2D2D]">$1.5 Billion</h3>
-            <p className="text-gray-200">Current Market</p>
+            <p className="text-[#FCFCFF]">Current Market</p>
           </div>
           <div className="text-center mb-6 md:mb-0">
             <h3 className="text-xl md:text-2xl font-bold text-[#2D2D2D]">10-15 Million</h3>
-            <p className="text-gray-200">Join annually</p>
+            <p className="text-[#FCFCFF]">Join annually</p>
           </div>
           <div className="text-center">
             <h3 className="text-xl md:text-2xl font-bold text-[#2D2D2D]">115-20%</h3>
-            <p className="text-gray-200">Demand (annually)</p>
+            <p className="text-[#FCFCFF]">Demand (annually)</p>
           </div>
         </div>
       </div>
