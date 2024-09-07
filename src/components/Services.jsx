@@ -28,7 +28,6 @@ function Services() {
   return (
     <section className="py-20 bg-[#C77DFF]">
       <h2 className="text-3xl font-semibold text-center mb-12">Popular Services</h2>
-      {/* Updated View More Button */}
       <a href="#">
         <h1 className="text-right pr-4 md:pr-56 underline font-medium md:text-right">View More</h1>
       </a>
