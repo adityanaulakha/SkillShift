@@ -9,24 +9,24 @@ function Services() {
       image: Graphic_Design_img,
       title: "Graphic Design",
       description: "Choose your next graphic design project with confidence. Showcase your creativity and deliver custom designs that captivate clients.",
-      bgColor: "bg-[#7B2CBF]",
+      bgColor: "bg-[#9381FF]",
     },
     {
       image: Web_Dev_img,
       title: "Web Development",
       description: "Select your next web development project with confidence. Showcase your skills and deliver custom websites that meet client needs.",
-      bgColor: "bg-[#04E762]",
+      bgColor: "bg-[#B8B8FF]",
     },
     {
       image: App_Dev_img,
       title: "App Development",
       description: "Choose your next app development project with confidence. Showcase your skills and deliver custom apps that meet client needs.",
-      bgColor: "bg-[#7B2CBF]",
+      bgColor: "bg-[#A1E6FC]",
     },
   ];
 
   return (
-    <section className="py-20 bg-[#C77DFF]">
+    <section className="py-20 bg-[#F8F7FF]">
       <h2 className="text-3xl font-semibold text-center mb-12">Popular Services</h2>
       <a href="#">
         <h1 className="text-right pr-4 md:pr-56 underline font-medium md:text-right">View More</h1>
