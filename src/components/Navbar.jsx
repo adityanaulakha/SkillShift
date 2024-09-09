@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import logo from '../assets/navbar-logo.png';
+import logo from '../assets/global/navbar-logo.png';
 import { FaChevronDown, FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {

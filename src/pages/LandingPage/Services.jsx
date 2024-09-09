@@ -1,7 +1,7 @@
 import React from "react";
-import Graphic_Design_img from "../assets/graphic_design_img.png";
-import Web_Dev_img from "../assets/web_dev_img.png";
-import App_Dev_img from "../assets/app_dev_img.png";
+import Graphic_Design_img from "../../assets/landingPage/graphic_design_img.png";
+import Web_Dev_img from "../../assets/landingPage/web_dev_img.png";
+import App_Dev_img from "../../assets/landingPage/app_dev_img.png";
 
 function Services() {
   const services = [

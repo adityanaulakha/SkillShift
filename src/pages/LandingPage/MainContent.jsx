@@ -1,6 +1,6 @@
 import React from "react";
-import Image_1 from "../assets/maincontent_img_1.png";
-import Image_2 from "../assets/maincontent_img_2.png";
+import Image_1 from "../../assets/landingPage/maincontent_img_1.png"; 
+import Image_2 from "../../assets/landingPage/maincontent_img_2.png"; 
 
 function MainContent() {
   return (
