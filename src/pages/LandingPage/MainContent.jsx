@@ -8,7 +8,7 @@ function MainContent() {
       <div className="container mx-auto px-4 md:px-24">
         
         <div className="text-left mb-10">
-          <p className="text-sm text-[#9381FF] tracking-wide uppercase">
+          <p className="text-sm text-[#7B2CBF] tracking-wide uppercase">
             Start your story, here
           </p>
           
@@ -30,7 +30,7 @@ function MainContent() {
             <div className="w-full md:w-60 h-auto rounded-xl bg-gray-300">
               <img src={Image_2} alt="Learning" className="w-full h-full rounded-xl object-cover" />
             </div>
-            <p className="text-2xl md:text-lg text-[#7B2CBF] pt-4 md:pt-20">
+            <p className="text-2xl md:text-lg text-[#9381FF] pt-4 md:pt-20">
               We make sure everyone gets equal learning and opportunities to unveil their skills and project here at our platform.
             </p>
           </div>
